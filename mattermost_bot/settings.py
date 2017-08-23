@@ -9,10 +9,10 @@ PLUGINS = [
 ]
 PLUGINS_ONLY_DOC_STRING = False
 
-BOT_URL = 'http://localhost:8065/api/v3'
-BOT_LOGIN = 'rlavpfl@gmail.com'
-BOT_PASSWORD = 'wlsdl1101' 
-BOT_TEAM = 'Test'
+BOT_URL = 'http://chat.architectgroup.com/api/v3'
+BOT_LOGIN = '<BOT_EMAIL_ADDRESS>'
+BOT_PASSWORD = '<BOT_PASSWORD>'
+BOT_TEAM = '<BOT_TEAM>'
 SSL_VERIFY = True
 
 IGNORE_NOTIFIES = ['@channel', '@all']
