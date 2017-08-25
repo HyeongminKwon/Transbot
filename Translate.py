@@ -46,7 +46,7 @@ def trans(input,dist):
         moresplited = splited[1].split('"}}}')
         return moresplited[0]
     else:
-        print("Error Code:" + rescode)              #오류 코드 출력
+        return rescode                              #오류 코드 출력
 
 KoListen.__doc__ = "Translate Korean to English"
 EnListen.__doc__ = "Translate English to Korean"
